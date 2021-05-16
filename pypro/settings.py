@@ -138,12 +138,11 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
     AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400', }
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
-    AWS_QUERYSTRING_AUTH = True
-    AWS_S3_CUSTOM_DOMAIN = None
+    AWS_QUERYSTRING_AUTH = False
 
     COLLECTFAST_ENABLED = True
 
-    AWS_DEFAULT_ACL = 'private'
+    AWS_DEFAULT_ACL = None
 
     # static assets
     # --------------------------------------------------------------------
