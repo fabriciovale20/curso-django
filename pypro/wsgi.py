@@ -1,4 +1,3 @@
-# pragma: no cover
 """
 WSGI config for pypro project.
 
