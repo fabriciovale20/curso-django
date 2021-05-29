@@ -14,7 +14,7 @@ def test_status_code(resp):
 
 
 @pytest.mark.parametrize(
-    'slug',
+    'titulo',
     [
         'Vídeo Aperitivo: Motivação',
         'Instalação Windows'
@@ -28,7 +28,7 @@ def test_titulo_video(resp, titulo):
     'slug',
     [
         'motivacao',
-        'instalação-windows'
+        'instalacao-windows'
     ]
 )
 def test_link_video(resp, slug):
