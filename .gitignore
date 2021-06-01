@@ -131,3 +131,5 @@ dmypy.json
 # postgres files for local developemnt
 
 .pgdata
+staticfiles
+/staticfiles/
